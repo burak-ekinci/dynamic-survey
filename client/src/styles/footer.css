@@ -1,0 +1,60 @@
+footer {
+  margin-top: auto;
+  background-color: #343a40;
+}
+
+footer a,
+footer i,
+footer li {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: #fff !important;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+footer i {
+  transition: transform 0.3s ease;
+}
+
+footer a:hover i {
+  transform: translateY(-2px);
+}
+
+footer .social-links a:hover i {
+  transform: scale(1.1);
+}
+
+footer hr {
+  opacity: 0.1;
+}
+
+footer h5 {
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+footer h5::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.list-unstyled li {
+  transition: transform 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.list-unstyled li:hover {
+  transform: translateX(5px);
+} 

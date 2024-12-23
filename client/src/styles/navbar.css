@@ -1,0 +1,61 @@
+ .hero-section {
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 2rem;
+ }
+
+ .slogan {
+     font-size: 3rem;
+     font-weight: bold;
+ }
+
+ .description {
+     margin-top: 2rem;
+     font-size: 1.2rem;
+ }
+
+ .phone-icon {
+     font-size: 8rem;
+     color: #007bff;
+ }
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+#profile-dropdown {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.dropdown-divider {
+  margin: 4px 0;
+} 
